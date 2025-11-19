@@ -29,15 +29,21 @@
         </activity>
         
         <activity
-            android:name=".PowerStateChangeActivity"
+            android:name=".Lab06_1Activity"
             android:exported="false"
             android:label="@string/lab06_1"
             android:theme="@style/Theme.Lab4" />
         
         <activity
+            android:name=".PowerStateChangeActivity"
+            android:exported="false"
+            android:label="@string/lab06_2"
+            android:theme="@style/Theme.Lab4" />
+        
+        <activity
             android:name=".Lab06_3Activity"
             android:exported="false"
-            android:label="@string/lab06_3"
+            android:label="@string/lab06_4"
             android:theme="@style/Theme.Lab4" />
         
         <!-- Register Power state change receiver (declared in manifest so it listens even if app is stopped) -->

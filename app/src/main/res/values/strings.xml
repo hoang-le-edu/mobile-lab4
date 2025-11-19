@@ -10,8 +10,9 @@
     
     <!-- Menu -->
     <string name="menu_title">Chọn bài Lab</string>
-    <string name="lab06_1">Lab06_1: Power State Change</string>
-    <string name="lab06_3">Lab06_3: Emergency SMS Response</string>
+    <string name="lab06_1">Bài 1: BroadcastReceiver bằng Code (SMS)</string>
+    <string name="lab06_2">Bài 2: BroadcastReceiver trong Manifest (Power)</string>
+    <string name="lab06_4">Bài 4: Emergency SMS Response</string>
     <string name="power_connected">Power connected</string>
     <string name="power_disconnected">Power disconnected</string>
 </resources>
