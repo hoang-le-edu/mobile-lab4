@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Chờ sự kiện cắm/rút sạc..."
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_status"
+        android:layout_marginTop="24dp"
+        android:text="Hướng dẫn: Cắm hoặc rút sạc để xem Toast thông báo.\n\nBroadcastReceiver đã được đăng ký trong AndroidManifest nên sẽ nhận được thông báo ngay cả khi app bị tắt."
+        android:textSize="14sp"
+        android:gravity="center" />
+
+</RelativeLayout>
